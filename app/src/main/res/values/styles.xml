@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <item name="colorAccent">#D50000</item>
+        <item name="android:seekBarStyle">@style/SeekBar</item>
+    </style>
+
+    <style name="SeekBar" parent="android:Widget.Holo.Light.SeekBar">
+        <item name="android:progressDrawable">@drawable/progress</item>
+        <item name="android:indeterminateDrawable">@drawable/progress</item>
+    </style>
+
+</resources>
